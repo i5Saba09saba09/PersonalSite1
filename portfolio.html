@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background: linear-gradient(to right, #0011ff, #0044ff);
+      color: white;
+      text-align: center;
+      padding: 40px 0 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3em;
+      font-weight: 800;
+      text-shadow: 1px 1px 2px #000;
+      letter-spacing: 3px;
+    }
+
+    nav {
+      background-color: #000c66;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 25px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+
+        .portfolio-container {
+          max-width: 1200px;
+          margin: 50px auto;
+          padding: 30px;
+          text-align: center;
+        }
+    
+        .portfolio-title {
+          font-size: 2.5em;
+          margin-bottom: 20px;
+          color: #0011ff;
+          letter-spacing: 1px;
+        }
+    
+        .portfolio-grid {
+          display: inline-block;
+        }
+    
+        .portfolio-item {
+          display: inline-block;
+          width: 300px;
+          margin: 20px;
+          background: white;
+          border-radius: 12px;
+          box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+          vertical-align: top;
+          transition: transform 0.3s;
+        }
+    
+        .portfolio-item:hover {
+          transform: scale(1.05);
+        }
+    
+        .portfolio-item img {
+          width: 100%;
+          height: 200px;
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+        }
+    
+        .portfolio-caption {
+          padding: 15px;
+          font-size: 1.1em;
+          color: #444;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+      </header>
+    
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+      </nav>
+    
+      <div class="portfolio-container">
+        <div class="portfolio-title">Some of My Work</div>
+    
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img src="https://images.ctfassets.net/lh3zuq09vnm2/1lUOC3P7HrhWLWrfWQyFB3/f04ef197ce7bead33a69f59ddb532352/Screenshot_2021-10-06_at_16.33.16.png" alt="Project 1">
+            <div class="portfolio-caption">Project 1: Website Redesign</div>
+          </div>
+    
+          <div class="portfolio-item">
+            <img src="https://www.aceinfoway.com/blog/wp-content/uploads/2021/11/Redesign-Your-Website-to-Do-What-Your-Customers-Want.jpg" alt="Project 2">
+            <div class="portfolio-caption">Project 2: Mobile App UI</div>
+          </div>
+    
+          <div class="portfolio-item">
+            <img src="https://www.penguinstrategies.com/hubfs/Blog%2012%20-%207%20Tips%20for%20a%20smooth%20website%20redesign/7%20Tips%20for%20a%20Smooth%20Website%20Redesign%20BLOG.png" alt="Project 3">
+            <div class="portfolio-caption">Project 3: E-Commerce Mockup</div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
