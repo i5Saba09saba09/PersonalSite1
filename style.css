@@ -5,7 +5,7 @@ html, body {
 }
 
 header {
-    background: linear-gradient(to right, #0011ff, #0044ff);
+      background: linear-gradient(to right, #0011ff, #0044ff);
       color: white;
       text-align: center;
       padding: 40px 0;
@@ -45,7 +45,8 @@ nav a {
 
   .gallery {
     margin-top: 40px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .gallery-item {
